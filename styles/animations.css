@@ -1,0 +1,40 @@
+.left{
+    position: relative;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: all 0.8s ease;
+    animation-iteration-count: 1;
+}
+
+.left.active{
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+    overflow: hidden;
+}
+
+.right{
+    position: relative;
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.right.active{
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.animation{
+    position: relative;
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: all 0.8s ease; 
+}
+
+.animation.active{
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+}
